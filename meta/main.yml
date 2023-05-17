@@ -11,7 +11,7 @@ galaxy_info:
   # min_ansible_container_version:
 
   platforms:
-    - name: "RHEL/CentOS"
+    - name: EL
       versions:
         - "6"
         - "7"
