@@ -3,21 +3,22 @@ galaxy_info:
   description: Ansible role helps automating the Helm installation process as described on https://helm.sh/docs/intro/install/
   company: No Company
 
-  license: license (BSD-3-Clause, MIT)
+  license: BSD
 
   min_ansible_version: 2.10.x
 
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
 
-platforms:
+  platforms:
     - name: EL
       versions:
-        - 7
-        - 8
+        - "6"
+        - "7"
 
-galaxy_tags:
-  - Helm
-  - Kubernetes
+  galaxy_tags:
+    - development
+    - Helm
+    - Kubernetes
 
 dependencies: []
