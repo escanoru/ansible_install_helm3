@@ -1,2 +1,8 @@
 ---
 # vars file for ansible_install_helm3
+helm_version: none
+os: none
+os_arch: none
+
+helm_url: https://get.helm.sh
+install_latest_version: true
